@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+</head>
+<body style="background-color: black;" >
+    <div class="container my-5" style="background-color: white; border-radius: 10px; " id="res">
+        <h6 class="p-2"><span id="curretQuestion">6</span>/ <span id="TotalQuestion">10</span></h6>
+        <div class="row justify-content-center">
+            <div class="col">
+                <h2 class="text-center"  id="Question">Question ?</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center" id="option-row">
+            <div class="col-md-5 m-2 p-2 text-center">
+                <button class="btn btn-primary">option 1</button>
+            </div>
+            <div class="col-md-5 m-2 p-2 text-center">
+                <button class="btn btn-primary">option 2</button>
+            </div>
+            <div class="col-md-5 m-2 p-2 text-center">
+                <button class="btn btn-primary">option 3</button>
+            </div>
+            <div class="col-md-5 m-2 p-2 text-center">
+                <button class="btn btn-primary">option 4</button>
+            </div>
+        </div>
+        <div class="row m-2">
+            <div class="col text-center">
+                <button class="btn btn-info m-2" onclick="NextQuestion();">Next Question</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="module" src="app.js"></script>
+</html>

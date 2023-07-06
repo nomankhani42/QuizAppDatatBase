@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+</head>
+<body class="bg-dark">
+     
+    <div class="container mt-5">
+        <div class="row mt-5 justify-content-center">
+            <div class="col-6">
+                 <input type="text" id="Question" class="form-control fs-3 py-1 text-center" placeholder="Enter Question">
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center mt-5">
+            <div class="col-4">
+               <input type="text" class="form-control" id="Option">
+            </div>
+            <div class="col-2">
+                <button class="btn btn-outline-info" onclick="addOption()">Add Option</button>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+            <div class="col-6 rounded-shadow bg-white" id="" style="min-height: 250px; border-radius: 15px; box-shadow: 2px 2px yellowgreen;">
+                <ol id="option_parent" class="m-4" style="list-style-type: upper-alpha;">
+                    
+                </ol>
+
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-5">
+            <div class="col-6">
+                <h5 id="correctoption" class="text-center bg-info rounded p-3 text-white fw-bolder">CorrectOption</h5>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5 ">
+            <div class="col-6 text-center">
+  <button class="btn btn-outline-info" onclick="submitQuestion();">Add Question</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script type="module"  src="quizdata.js"></script>
+</body>
+</html>
